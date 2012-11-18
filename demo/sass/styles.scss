@@ -1,0 +1,13 @@
+body {
+	margin: 200px 0;
+	text-align: center;
+}
+
+div {
+	display: inline-block;
+	height: 100px;
+	width: 100px;
+}
+
+#base64 { background: url64("../images/base64.png") 0 0 }
+#raw { background: url("../images/raw.png") 0 0 }
