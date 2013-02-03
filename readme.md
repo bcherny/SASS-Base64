@@ -22,5 +22,7 @@ sass --watch sass:css -r ./sass/functions/url64.rb
 Accepts a variety of formats (GIF/JPG/PNG/SVG), in any CSS declaration. Use `url64` anywhere you'd use a plain old `url`. For example:
 
 ```css
-background-image: url64(../images/image.png)
+background-image: url64("../images/image.png")
 ```
+
+NB: Be sure to use quotes around your URL, otherwise SASS will throw an error.
