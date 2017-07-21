@@ -1,12 +1,12 @@
 # SASS-Base64
 
-An automated SASS base64 inline image generator
+> An automated SASS base64 inline image generator
 
 ## Installation
 
 ```bash
-sudo gem install sass
-sudo gem install smusher
+gem install sass
+gem install smusher
 ```
 
 ## Starting SASS from the command line
@@ -19,9 +19,9 @@ sass --watch sass:css -r ./sass/functions/url64.rb
 
 ## Usage
 
-Accepts a variety of formats (GIF/JPG/PNG/SVG), in any CSS declaration. Use `url64` anywhere you'd use a plain old `url`. For example:
+Accepts a variety of formats (GIF/JPG/PNG/SVG), in any CSS declaration. Use `url64` anywhere you would use a plain old `url`. For example:
 
-```css
+```yaml
 background-image: url64("../images/image.png")
 ```
 
